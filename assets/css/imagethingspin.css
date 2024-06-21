@@ -1,0 +1,49 @@
+.carousel {
+    border-radius: 10px;
+    max-width: 600px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    background-color: #121212;
+    text-align: center;
+  }
+  
+  .carousel a {
+    display: inline-block;
+    margin: 10px;
+  }
+  
+  .carousel img {
+    border-radius: 10px;
+    border: 2px solid #fff;
+    width: 200px;
+    height: 120px;
+    display: block;
+    object-fit: cover;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+
+  .carousel img:hover {
+    transform: scale(0.9);
+  }
+  
+  .prev, .next {
+    border-radius: 10px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    z-index: 1;
+  }
+  
+  .prev {
+    left: 10px;
+  }
+  
+  .next {
+    right: 10px;
+  }

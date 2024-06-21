@@ -1,0 +1,298 @@
+body {
+            font-family: 'Lexend';
+            color: #fff;
+            margin: 0;
+            padding: 0;
+            background-color: #0d0d0d;
+            text-align: center;
+            
+        }
+
+        navbarthing {
+            background: #0d0d0d;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+            position: fixed;
+            width: 100vw;
+            left: 0;
+            right: 0;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            display: flex;
+            align-items: center;
+            border-bottom: 1px solid #ccc;
+        }
+
+        navbarthing .logo {
+            margin-right: auto;
+            padding-left: 20px;
+        }
+
+        navbarthing .logo img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+	    border: 1px solid #fff;
+        }
+        
+        navbarthing .logo img:hover {
+           transform: scale(0.9);
+        }
+
+        navbarthing nav {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+        }
+
+        navbarthing nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        navbarthing nav ul li {
+            display: inline;
+            margin: 0 5px;
+        }
+
+        navbarthing nav ul li a {
+            text-decoration: none;
+    	    color: #fff;
+    	    padding: 10px 5px;
+    	    transition: background-color 0.3s ease, color 0.3s ease;
+            border-radius: 10px;
+	    font-weight: bold;
+        }
+
+        navbarthing nav ul li a:hover {
+            background-color: #fff;
+            color: #000;
+            border-radius: 10px;
+        }
+
+        #cover {
+            height: 100vh;
+            background-color: #0d0d0d; 
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 20px;
+            box-sizing: border-box;
+            margin-top: 30px;
+            border-bottom: 1px solid #ccc; 
+        }
+
+        #cover h1 {
+            font-size: 3em;
+            margin: 0 0 20px;
+        }
+
+        #cover p {
+            font-size: 1.5em;
+            margin: 0 0 20px;
+        }
+
+        #cover .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background: transparent;
+            border: 2px solid #fff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1em;
+            transition: background 0.3s;
+        }
+
+        #cover .btn:hover {
+            background: #fff;
+            color: #000;
+        }
+
+	button {
+            display: inline-block;
+            padding: 10px 20px;
+            background: transparent;
+            border: 2px solid #fff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1em;
+            transition: background 0.3s;
+        }
+
+        button:hover {
+            background: #fff;
+            color: #000;
+        }
+
+
+        #content {
+            padding: 80px 20px 20px; 
+            background: #0d0d0d;
+        }
+
+        .goonercard {
+        	border-radius: 10px;
+            background: #121212;
+            padding: 20px;
+            margin: 10px 0;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .futur {
+        	border-top: 1px solid #ccc;
+            text-align: center;
+            padding: 20px;
+            background: #0d0d0d;
+            color: #fff;
+        }
+        
+        .futur img {
+            width: 20px;
+            height: 20px;
+            margin: 0 5px; 
+            cursor: pointer; 
+            filter: grayscale(100%);
+            transition: transform 0.3s ease;
+  		}
+
+		.futur img:hover {
+            transform: scale(0.9);
+  		}
+
+       
+        @media (max-width: 600px) {
+            #cover h1 {
+                font-size: 2em;
+            }
+
+            #cover p {
+                font-size: 1.2em;
+            }
+
+            navbarthing {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            navbarthing .logo {
+                padding-left: 20px;
+                margin-right: 0;
+                margin-bottom: 10px;
+            }
+
+            navbarthing .logo img {
+                width: 40px;
+                height: 40px;
+            }
+
+            navbarthing nav {
+                order: 2;
+            }
+
+            navbarthing nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            navbarthing nav ul li {
+                display: block;
+                margin: 10px 0;
+                padding: 10px 0;
+            }
+        }
+        
+	        .fading-h1 {
+	    background: linear-gradient(to right, white, black);
+	   background-clip: text;
+	    color: transparent; 
+	    animation: fadeIn 2s forwards; 
+	  }
+	
+	  @keyframes fadeIn {
+	    from {
+	      color: transparent; 
+	    }
+	    to {
+	      color: white; 
+	    }
+	  }
+	
+	.collapsible {
+	    margin-top: 10px;
+	    border-radius: 10px;
+	    background-color: #121212; 
+	    color: white; 
+	    text-align: center;
+	    cursor: pointer;
+	    padding: 18px;
+	    width: 100%;
+	    border: none;
+	    text-align: left;
+	    outline: none;
+	    font-size: 15px;
+	    transition: background-color 0.3s ease;
+	  }
+
+	  .content {
+	    text-align: center;	  
+	    border-radius: 10px;
+	    padding: 18px;
+	    display: none;
+	    overflow: hidden;
+	    background-color: #121212; 
+	    color: white; 
+	    transition: max-height 0.3s ease-out;
+	  }
+	
+	  .active {
+	    display: block;
+	  }
+
+	   .link-redirect a { 
+		   color: #fff;
+		   transition: color 0.3s ease;
+	   } 
+		.link-redirect a:hover {
+			color: grey;
+		}
+
+
+	.ffutur {
+
+            text-align: center;
+            padding: 20px;
+            background: #0d0d0d;
+            color: #fff;
+        }
+        
+        .ffutur img {
+            width: 20px;
+            height: 20px;
+            margin: 0 5px; 
+            cursor: pointer; 
+            filter: grayscale(100%);
+            transition: transform 0.3s ease;
+  		}
+
+		.ffutur img:hover {
+            transform: scale(0.9);
+  		}
+
+		::selection {
+		    background-color: #ffffff; 
+		    color: #000000; 
+		}
+
+		h6 {
+			opacity: 0.5;
