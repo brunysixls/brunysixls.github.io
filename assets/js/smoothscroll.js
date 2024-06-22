@@ -28,12 +28,12 @@
                     document.documentElement.style.setProperty('--content-background', '#7e6bdb');
                     document.documentElement.style.setProperty('--footer-background', '#1b0c63');
                     break;
-                case 'theme-test':
-                    document.documentElement.style.setProperty('--navbar-color', '#333333');
-                    document.documentElement.style.setProperty('--background-color', '#1a1a1a');
-                    document.documentElement.style.setProperty('--cover-color', '#000000');
-                    document.documentElement.style.setProperty('--content-background', '#1a1a1a');
-                    document.documentElement.style.setProperty('--footer-background', '#333333');
+                case 'theme-spooky':
+                    document.documentElement.style.setProperty('--navbar-color', '#a86b32');
+                    document.documentElement.style.setProperty('--background-color', '#a86b32');
+                    document.documentElement.style.setProperty('--cover-color', '#eda45f');
+                    document.documentElement.style.setProperty('--content-background', '##c47123');
+                    document.documentElement.style.setProperty('--footer-background', '#a86b32');
                     break;
                 default:
                     document.documentElement.style.setProperty('--navbar-color', '#0d0d0d');
