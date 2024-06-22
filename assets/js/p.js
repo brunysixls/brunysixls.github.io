@@ -6,6 +6,7 @@ const texts = [
       "Still Active During Summer!",
       "Hi Im Baldi Nice To Meet Ya!",
       "Now Better Then Frogies Arcade",
+      "Wsg Fat Ass -Frogiee1",
       "If You Give Me A Cease And Desist It Will Be BrunysEXCEL"
     ];
 
