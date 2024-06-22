@@ -46,7 +46,7 @@
                     document.documentElement.style.setProperty('--navbar-color', '#4034eb');
                     document.documentElement.style.setProperty('--background-color', '#7971eb');
                     document.documentElement.style.setProperty('--cover-color', '#5a50e6');
-                    document.documentElement.style.setProperty('--content-background', '#70ff97');
+                    document.documentElement.style.setProperty('--content-background', '#7971eb');
                     document.documentElement.style.setProperty('--footer-background', '#4034eb');
                     break;
                     case 'theme-selentay':
