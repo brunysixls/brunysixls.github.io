@@ -1,8 +1,10 @@
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Lexend';
+	    color: #fff;
             margin: 0;
             padding: 0;
             background-color: var(--background-color, #0d0d0d);
+	    text-align: center;
         }
 
         navbarthing {
@@ -54,19 +56,20 @@
 
         navbarthing nav ul li {
             display: inline;
-            margin: 0 20px;
+            margin: 0 5px;
         }
 
         navbarthing nav ul li a {
             color: #fff;
             text-decoration: none;
             font-weight: bold;
-            transition: color 0.3s;
+            transition: color 0.2s;
         }
 
         navbarthing nav ul li a:hover {
-            text-decoration: underline;
-            color: #ddd;
+            background-color: #fff;
+            color: #000;
+            border-radius: 10px;
         }
 
         #cover {
@@ -80,6 +83,7 @@
             padding: 20px;
             box-sizing: border-box;
             margin-top: 60px; 
+	    border-bottom: 1px solid #ccc; 
         }
 
         #cover h1 {
@@ -95,7 +99,8 @@
         #cover .btn {
             display: inline-block;
             padding: 10px 20px;
-            background: #4CAF50;
+            background: transparent;
+            border: 2px solid #fff;
             color: #fff;
             text-decoration: none;
             border-radius: 5px;
@@ -104,7 +109,8 @@
         }
 
         #cover .btn:hover {
-            background: #45a049;
+            background: #fff;
+            color: #000;
         }
 
         #content {
