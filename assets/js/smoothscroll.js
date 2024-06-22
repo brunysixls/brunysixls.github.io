@@ -23,7 +23,7 @@
             switch (theme) {
                 case 'theme-ocean':
                     document.documentElement.style.setProperty('--navbar-color', '#1b0c63');
-                    document.documentElement.style.setProperty('--background-color', '#412ea3');
+                    document.documentElement.style.setProperty('--background-color', '#1b0c63');
                     document.documentElement.style.setProperty('--cover-color', '#412ea3');
                     document.documentElement.style.setProperty('--content-background', '#7e6bdb');
                     document.documentElement.style.setProperty('--footer-background', '#1b0c63');
