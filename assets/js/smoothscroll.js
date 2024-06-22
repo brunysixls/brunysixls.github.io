@@ -42,6 +42,13 @@
                     document.documentElement.style.setProperty('--content-background', '#70ff97');
                     document.documentElement.style.setProperty('--footer-background', '#32a852');
                     break;
+                    case 'theme-meximath':
+                    document.documentElement.style.setProperty('--navbar-color', '#4034eb');
+                    document.documentElement.style.setProperty('--background-color', '#7971eb');
+                    document.documentElement.style.setProperty('--cover-color', '#5a50e6');
+                    document.documentElement.style.setProperty('--content-background', '#70ff97');
+                    document.documentElement.style.setProperty('--footer-background', '#4034eb');
+                    break;
                 default:
                     document.documentElement.style.setProperty('--navbar-color', '#0d0d0d');
                     document.documentElement.style.setProperty('--background-color', '#0d0d0d');
