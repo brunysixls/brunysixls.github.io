@@ -1,15 +1,12 @@
-body {
-            font-family: 'Lexend';
-            color: #fff;
+        body {
+            font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #0d0d0d;
-            text-align: center;
-            
+            background-color: var(--background-color, #0d0d0d);
         }
 
         navbarthing {
-            background: #0d0d0d;
+            background: var(--navbar-color, #0d0d0d); 
             color: #fff;
             padding: 10px 0;
             text-align: center;
@@ -35,11 +32,9 @@ body {
             height: 50px;
             border-radius: 50%;
             cursor: pointer;
-            transition: transform 0.3s ease;
-	    border: 1px solid #fff;
         }
-        
-        navbarthing .logo img:hover {
+
+	navbarthing .logo img:hover {
            transform: scale(0.9);
         }
 
@@ -59,27 +54,24 @@ body {
 
         navbarthing nav ul li {
             display: inline;
-            margin: 0 5px;
+            margin: 0 20px;
         }
 
         navbarthing nav ul li a {
+            color: #fff;
             text-decoration: none;
-    	    color: #fff;
-    	    padding: 10px 5px;
-    	    transition: background-color 0.3s ease, color 0.3s ease;
-            border-radius: 10px;
-	    font-weight: bold;
+            font-weight: bold;
+            transition: color 0.3s;
         }
 
         navbarthing nav ul li a:hover {
-            background-color: #fff;
-            color: #000;
-            border-radius: 10px;
+            text-decoration: underline;
+            color: #ddd;
         }
 
         #cover {
             height: 100vh;
-            background-color: #0d0d0d; 
+            background-color: var(--cover-color, #0d0d0d);
             color: #fff;
             display: flex;
             justify-content: center;
@@ -87,8 +79,7 @@ body {
             text-align: center;
             padding: 20px;
             box-sizing: border-box;
-            margin-top: 30px;
-            border-bottom: 1px solid #ccc; 
+            margin-top: 60px; 
         }
 
         #cover h1 {
@@ -104,8 +95,7 @@ body {
         #cover .btn {
             display: inline-block;
             padding: 10px 20px;
-            background: transparent;
-            border: 2px solid #fff;
+            background: #4CAF50;
             color: #fff;
             text-decoration: none;
             border-radius: 5px;
@@ -114,50 +104,40 @@ body {
         }
 
         #cover .btn:hover {
-            background: #fff;
-            color: #000;
+            background: #45a049;
         }
-
-	button {
-            display: inline-block;
-            padding: 10px 20px;
-            background: transparent;
-            border: 2px solid #fff;
-            color: #fff;
-            text-decoration: none;
-            border-radius: 5px;
-            font-size: 1em;
-            transition: background 0.3s;
-        }
-
-        button:hover {
-            background: #fff;
-            color: #000;
-        }
-
 
         #content {
             padding: 80px 20px 20px; 
-            background: #0d0d0d;
+            background: var(--content-background, #0d0d0d);
         }
 
         .goonercard {
-        	border-radius: 10px;
+            border-radius: 10px;
             background: #121212;
             padding: 20px;
             margin: 10px 0;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
 
+        .theme-goonercard {
+            padding: 20px;
+            margin: 10px;
+            border: 1px solid #ccc;
+            text-align: center;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
         .futur {
-        	border-top: 1px solid #ccc;
+	    border-top: 1px solid #ccc;
             text-align: center;
             padding: 20px;
-            background: #0d0d0d;
+            background: var(--footer-background, #0d0d0d); 
             color: #fff;
         }
-        
-        .futur img {
+
+	.futur img {
             width: 20px;
             height: 20px;
             margin: 0 5px; 
@@ -170,7 +150,6 @@ body {
             transform: scale(0.9);
   		}
 
-       
         @media (max-width: 600px) {
             #cover h1 {
                 font-size: 2em;
