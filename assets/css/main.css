@@ -121,7 +121,7 @@
 
         .goonercard {
             border-radius: 10px;
-            background: rgba(0, 0, 0, 0.1); 
+            background: rgba(0, 0, 0, 0.5); 
             padding: 20px;
             margin: 10px 0;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -130,7 +130,7 @@
         .theme-goonercard {
             padding: 20px;
             margin: 10px;
-            background: rgba(0, 0, 0, 0.1); 
+            background: rgba(0, 0, 0, 0.5); 
 	    border-radius: 10px;
             text-align: center;
             cursor: pointer;
@@ -218,7 +218,7 @@
 	.collapsible {
 	    margin-top: 10px;
 	    border-radius: 10px;
-	    background: rgba(0, 0, 0, 0.1); 
+	    background: rgba(0, 0, 0, 0.5); 
 	    color: white; 
 	    text-align: center;
 	    cursor: pointer;
