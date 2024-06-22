@@ -43,17 +43,17 @@
                     document.documentElement.style.setProperty('--footer-background', '#32a852');
                     break;
                     case 'theme-meximath':
-                    document.documentElement.style.setProperty('--navbar-color', '#4034eb');
-                    document.documentElement.style.setProperty('--background-color', '#4034eb');
+                    document.documentElement.style.setProperty('--navbar-color', '#0033a1');
+                    document.documentElement.style.setProperty('--background-color', '#0033a1');
                     document.documentElement.style.setProperty('--cover-color', '#5a50e6');
                     document.documentElement.style.setProperty('--content-background', '#5a50e6');
-                    document.documentElement.style.setProperty('--footer-background', '#4034eb');
+                    document.documentElement.style.setProperty('--footer-background', '#0033a1');
                     break;
                     case 'theme-selentay':
                     document.documentElement.style.setProperty('--navbar-color', '#240046');
                     document.documentElement.style.setProperty('--background-color', '#240046');
-                    document.documentElement.style.setProperty('--cover-color', '#10002B');
-                    document.documentElement.style.setProperty('--content-background', '#10002B');
+                    document.documentElement.style.setProperty('--cover-color', '#255bcf');
+                    document.documentElement.style.setProperty('--content-background', '#255bcf');
                     document.documentElement.style.setProperty('--footer-background', '#240046');
                     break;
                 default:
