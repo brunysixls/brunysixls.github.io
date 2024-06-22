@@ -130,7 +130,8 @@
         .theme-goonercard {
             padding: 20px;
             margin: 10px;
-            border: 1px solid #ccc;
+            background: #121212;
+	    border-radius: 10px;
             text-align: center;
             cursor: pointer;
             transition: background-color 0.3s;
