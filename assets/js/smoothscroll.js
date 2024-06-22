@@ -35,6 +35,13 @@
                     document.documentElement.style.setProperty('--content-background', '##c47123');
                     document.documentElement.style.setProperty('--footer-background', '#a86b32');
                     break;
+                    case 'theme-FA':
+                    document.documentElement.style.setProperty('--navbar-color', '#32a852');
+                    document.documentElement.style.setProperty('--background-color', '#32a852');
+                    document.documentElement.style.setProperty('--cover-color', '#70ff97');
+                    document.documentElement.style.setProperty('--content-background', '#70ff97');
+                    document.documentElement.style.setProperty('--footer-background', '#32a852');
+                    break;
                 default:
                     document.documentElement.style.setProperty('--navbar-color', '#0d0d0d');
                     document.documentElement.style.setProperty('--background-color', '#0d0d0d');
