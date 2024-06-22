@@ -40,64 +40,64 @@ document.addEventListener("DOMContentLoaded", function() {
 
     const presets = {
         google: {
-            favicon: "../../assets/images/cloaks/google.ico",
+            favicon: "../../assets/Images/cloaks/google.ico",
             title: "Google"
         },
         bing: {
-            favicon: "../../assets/images/cloaks/bing.ico",
+            favicon: "../../assets/Images/cloaks/bing.ico",
             title: "Bing"
         },
         gmail: {
-            favicon: "../../assets/images/cloaks/gmail.ico",
+            favicon: "../../assets/Images/cloaks/gmail.ico",
             title: "Gmail"
         },
         desmos: {
-            favicon: "../../assets/images/cloaks/desmos.ico",
+            favicon: "../../assets/Images/cloaks/desmos.ico",
             title: "Desmos | Graphing Calculator"
         },
         googleclassroom: {
-            favicon: "../../assets/images/cloaks/googleclassroom.ico",
+            favicon: "../../assets/Images/cloaks/googleclassroom.ico",
             title: "Home"
         },
         wikipedia: {
-            favicon: "../../assets/images/cloaks/wikipedia.ico",
+            favicon: "../../assets/Images/cloaks/wikipedia.ico",
             title: "Wikipedia"
         },
         chrometab: {
-            favicon: "../../assets/images/cloaks/chromenewtab.ico",
+            favicon: "../../assets/Images/cloaks/chromenewtab.ico",
             title: "New Tab"
         },
         googledrive: {
-            favicon: "../../assets/images/cloaks/googledrive.ico",
+            favicon: "../../assets/Images/cloaks/googledrive.ico",
             title: "My Drive"
         },
         IXL: {
-            favicon: "../../assets/images/cloaks/ixl.ico",
+            favicon: "../../assets/Images/cloaks/ixl.ico",
             title: "IXL | Math"
         },
         meximath: {
-            favicon: "../../assets/images/cloaks/meximath.ico",
+            favicon: "../../assets/Images/cloaks/meximath.ico",
             title: "MexiMath"
         },
         szvycentral: {
-            favicon: "../../assets/images/cloaks/szvycentral.ico",
+            favicon: "../../assets/Images/cloaks/szvycentral.ico",
             title: "Szvy Central"
         },
         pablocp: {
-            favicon: "../../assets/images/cloaks/pablocp.ico",
+            favicon: "../../assets/Images/cloaks/pablocp.ico",
             title: "PabloCP"
         }
         ,
         fa: {
-            favicon: "../../images/cloaks/fa.ico",
+            favicon: "../../assets/Images/cloaks/fa.ico",
             title: "Frogies Arcade"
         },
         schoology: {
-            favicon: "../../images/cloaks/schoology.ico",
+            favicon: "../../assets/Images/cloaks/schoology.ico",
             title: "Home | Schoology"
         },
         clever: {
-            favicon: "../../images/cloaks/clever.ico",
+            favicon: "../../assets/Images/cloaks/clever.ico",
             title: "Clever | Portal"
         }
     };
