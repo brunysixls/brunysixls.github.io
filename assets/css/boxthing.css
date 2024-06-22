@@ -1,0 +1,31 @@
+.container {
+    top-margin: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .main-box {
+    margin-top: 10px;
+    width: 400px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.1); 
+    border: 2px solid #fff;
+    border-radius: 10px;
+  }
+
+  .image {
+    width: 100px;
+    height: 100px;
+    margin: 0 10px;
+    transition: box-shadow 0.3s ease;
+    border-radius: 10px;
+  }
+
+  .image:hover {
+    box-shadow: 0 0 0 2px white;
+  }
+
