@@ -307,7 +307,7 @@
 		            color: #000;
 		        }
 			
-			select {
+			.select {
 			    background-color: #121212;
 			    color: #fff;
 			    width: 200px;
