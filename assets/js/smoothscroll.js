@@ -61,6 +61,14 @@
                     document.documentElement.style.setProperty('--content-background', '#10002B');
                     document.documentElement.style.setProperty('--footer-background', '#240046');
                     break;
+                    case 'theme-dark':
+                    document.documentElement.style.setProperty('--navbar-color', '#000000');
+                    document.documentElement.style.setProperty('--background-color', '#000000');
+                    document.documentElement.style.setProperty('--cover-color', '#000000');
+                    document.documentElement.style.setProperty('--select-color', '#000000');
+                    document.documentElement.style.setProperty('--content-background', '#000000');
+                    document.documentElement.style.setProperty('--footer-background', '#000000');
+                    break;
                 default:
                     document.documentElement.style.setProperty('--navbar-color', '#0d0d0d');
                     document.documentElement.style.setProperty('--background-color', '#0d0d0d');
