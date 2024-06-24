@@ -25,6 +25,7 @@
                     document.documentElement.style.setProperty('--navbar-color', '#1b0c63');
                     document.documentElement.style.setProperty('--background-color', '#1b0c63');
                     document.documentElement.style.setProperty('--cover-color', '#412ea3');
+                    document.documentElement.style.setProperty('--select-color', '#412ea3');
                     document.documentElement.style.setProperty('--content-background', '#7e6bdb');
                     document.documentElement.style.setProperty('--footer-background', '#1b0c63');
                     break;
@@ -32,6 +33,7 @@
                     document.documentElement.style.setProperty('--navbar-color', '#a86b32');
                     document.documentElement.style.setProperty('--background-color', '#a86b32');
                     document.documentElement.style.setProperty('--cover-color', '#eda45f');
+                    document.documentElement.style.setProperty('--select-color', '#eda45f');
                     document.documentElement.style.setProperty('--content-background', '##c47123');
                     document.documentElement.style.setProperty('--footer-background', '#a86b32');
                     break;
@@ -39,6 +41,7 @@
                     document.documentElement.style.setProperty('--navbar-color', '#32a852');
                     document.documentElement.style.setProperty('--background-color', '#32a852');
                     document.documentElement.style.setProperty('--cover-color', '#70ff97');
+                    document.documentElement.style.setProperty('--select-color', '#70ff97');
                     document.documentElement.style.setProperty('--content-background', '#70ff97');
                     document.documentElement.style.setProperty('--footer-background', '#32a852');
                     break;
@@ -46,6 +49,7 @@
                     document.documentElement.style.setProperty('--navbar-color', '#0033a1');
                     document.documentElement.style.setProperty('--background-color', '#0033a1');
                     document.documentElement.style.setProperty('--cover-color', '#5a50e6');
+                    document.documentElement.style.setProperty('--select-color', '#5a50e6');
                     document.documentElement.style.setProperty('--content-background', '#5a50e6');
                     document.documentElement.style.setProperty('--footer-background', '#0033a1');
                     break;
@@ -53,6 +57,7 @@
                     document.documentElement.style.setProperty('--navbar-color', '#240046');
                     document.documentElement.style.setProperty('--background-color', '#240046');
                     document.documentElement.style.setProperty('--cover-color', '#10002B');
+                    document.documentElement.style.setProperty('--select-color', '#10002B');
                     document.documentElement.style.setProperty('--content-background', '#10002B');
                     document.documentElement.style.setProperty('--footer-background', '#240046');
                     break;
@@ -60,6 +65,7 @@
                     document.documentElement.style.setProperty('--navbar-color', '#0d0d0d');
                     document.documentElement.style.setProperty('--background-color', '#0d0d0d');
                     document.documentElement.style.setProperty('--cover-color', '#0d0d0d');
+                    document.documentElement.style.setProperty('--select-color', '#0d0d0d');
                     document.documentElement.style.setProperty('--content-background', '#0d0d0d');
                     document.documentElement.style.setProperty('--footer-background', '#0d0d0d');
             }
