@@ -7,6 +7,7 @@ const texts = [
       "Hi Im Baldi Nice To Meet Ya!",
       "Now Better Then Frogies Arcade",
       "Wsg Fat Ass -Frogiee1",
+      "Selenite Is Pronounced Sell-n-tay",
       "If You Give Me A Cease And Desist It Will Be BrunysEXCEL"
     ];
 
