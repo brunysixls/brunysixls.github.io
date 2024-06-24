@@ -116,6 +116,11 @@
 		border: 2px solid #fff;
 		padding-right: 10px;
 		height: 45px;
+		transition: border-color 0.3s ease;
+			}
+
+			#cover .select:hover {
+	 		border-color: #858585;
 			}
 	
         #cover h1 {
