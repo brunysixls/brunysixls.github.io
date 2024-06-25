@@ -42,8 +42,8 @@ For any questions, suggestions, or support, feel free to contact us:
 
 - **Website:** [BrunysIXL](https://www.brunysixl.com)
 - **Email:** brunysixl@gmail.com
-- **TikTok:** [@BrunysIXL](https://tiktok.com/@b4uny)
-- **YouTube:** [BrunysIXL](https://www.youtube.com/@b4unyswastaken)
+- **TikTok:** [@B4uny](https://tiktok.com/@b4uny)
+- **YouTube:** [@B4unyswastaken](https://www.youtube.com/@b4unyswastaken)
 
 ---
 
