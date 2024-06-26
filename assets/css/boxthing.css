@@ -15,7 +15,7 @@
 .boxthing-grid {
     display: flex;
     flex-wrap: wrap;
-    gap: 15px;
+    gap: 12px;
     position: relative;
     display: flex;
     align-items: center;
