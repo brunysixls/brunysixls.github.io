@@ -277,7 +277,7 @@
 	    padding: 18px;
 	    display: none;
 	    overflow: hidden;
-	    background-color: #121212; 
+	    background: rgba(0, 0, 0, 0.5); 
 	    color: white; 
 	    transition: max-height 0.3s ease-out;
 	  }
