@@ -69,6 +69,14 @@
                     document.documentElement.style.setProperty('--content-background', '#000000');
                     document.documentElement.style.setProperty('--footer-background', '#000000');
                     break;
+                    case 'theme-red':
+                    document.documentElement.style.setProperty('--navbar-color', '#4a0a0a');
+                    document.documentElement.style.setProperty('--background-color', '#4a0a0a');
+                    document.documentElement.style.setProperty('--cover-color', '#8a0606');
+                    document.documentElement.style.setProperty('--select-color', '#8a0606');
+                    document.documentElement.style.setProperty('--content-background', '#8a0606');
+                    document.documentElement.style.setProperty('--footer-background', '#4a0a0a');
+                    break;
                 default:
                     document.documentElement.style.setProperty('--navbar-color', '#0d0d0d');
                     document.documentElement.style.setProperty('--background-color', '#0d0d0d');
