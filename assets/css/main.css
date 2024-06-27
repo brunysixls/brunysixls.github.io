@@ -341,4 +341,16 @@
 		            color: #000;
 		        }
 			
-			
+			<!DOCTYPE html>
+
+		        .trending {
+		            display: flex;
+		            align-items: center;
+		        }
+		        .trending img {
+		            width: 20px;
+		            height: 20px;
+		            margin-right: 10px; 
+		        }
+
+
