@@ -3,7 +3,8 @@
 .input {
   width: 100%;
   background-color: transparent;
-  border: 1.5px #32475B solid;
+  border: 2px #fff solid;
+  width: 100px;
   border-radius: 5px;
   font-size: 14px;
   padding: 12px;
