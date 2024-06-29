@@ -1,5 +1,5 @@
 self.__uv$config = {
-  prefix: "/brunysixl/",
+  prefix: "/service/",
 
   /* Bare server URL */
   bare: "https://superfat.yourmom.eu.org",
