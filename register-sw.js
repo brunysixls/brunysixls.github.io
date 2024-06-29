@@ -1,6 +1,6 @@
 // The service worker registration script
 // This must run successfully before Ultraviolet is available to use
-const BARE_SERVER = "https://bixlv3bare.global.ssl.fastly.net/bare/";
+const BARE_SERVER = "https://superfat.yourmom.eu.org";
 
 if ("serviceWorker" in navigator) {
   navigator.serviceWorker
