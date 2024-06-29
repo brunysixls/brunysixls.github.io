@@ -1,8 +1,8 @@
 self.__uv$config = {
-  prefix: "/service/",
+  prefix: "/brunysixl/",
 
   /* Bare server URL */
-  bare: "http://45.90.12.122:7161",
+  bare: "https://superfat.yourmom.eu.org",
 
   encodeUrl: Ultraviolet.codec.xor.encode,
   decodeUrl: Ultraviolet.codec.xor.decode,
