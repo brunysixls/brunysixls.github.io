@@ -2,7 +2,7 @@ self.__uv$config = {
   prefix: "/service/",
 
   /* Bare server URL */
-  bare: "https://superfat.yourmom.eu.org",
+  bare: "https://brunysixlbare.global.ssl.fastly.net",
 
   encodeUrl: Ultraviolet.codec.xor.encode,
   decodeUrl: Ultraviolet.codec.xor.decode,
