@@ -1,6 +1,6 @@
 // The service worker registration script
 // This must run successfully before Ultraviolet is available to use
-const BARE_SERVER = "https://tomp.app";
+const BARE_SERVER = "https://superfat.yourmom.eu.org";
 
 if ("serviceWorker" in navigator) {
   navigator.serviceWorker
