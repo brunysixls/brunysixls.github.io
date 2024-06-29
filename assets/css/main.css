@@ -8,7 +8,9 @@
         }
 
         navbarthing {
-            background: var(--navbar-color, #0d0d0d); 
+	     background: rgba(13, 13, 13, 0.1); 
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
             color: #fff;
             padding: 10px 0;
             text-align: center;
